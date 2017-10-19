@@ -4,7 +4,7 @@ QML is the best language that I learn to build desktops applications in a fast w
 
 # Future works
 
-Implementation of routes managment, bootstrap and materialize support, forms validations and many others.
+Implementation of routes managment, bootstrap and materialize support and forms validations.
 
 ## License
 
