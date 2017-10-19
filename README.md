@@ -26,8 +26,8 @@ Rectangle {
 ### Download the project and execute it
 
 ```bash
-  git clone https://github.com/eduinlight/myqmlweb.git
-  cd mysqmlweb
+  git clone https://github.com/eduinlight/lightqmlweb.git
+  cd lightqmlweb
   npm run watch
 ```
 
