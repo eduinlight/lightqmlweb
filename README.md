@@ -9,4 +9,4 @@ Implementation of routes managment, bootstrap and materialize support, forms val
 ## License
 
 LightQmlWeb is licensed under the MIT license, see
-[LICENSE](https://github.com/eduinlight/myqmlweb/LICENSE).
+[LICENSE](https://github.com/eduinlight/myqmlweb/blob/master/LICENSE).
