@@ -1,5 +1,5 @@
 {
-  "name": "qmlweb",
+  "name": "light-qmlweb",
   "version": "0.2.0",
   "description": "QML port to Javascript",
   "license": "MIT",
