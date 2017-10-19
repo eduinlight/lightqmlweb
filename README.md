@@ -1,12 +1,6 @@
-# LIGHT QML WEB
+# LightQmlWeb (LQW)
 
-This is a QML parser in pure JavaScript, based on UglifyJS parser.
-
-It serves both as an optional dependency to
-[QmlWeb](https://github.com/qmlweb/qmlweb) to allow it parse QML and
-JavaScript files in runtime and as a parser that powers
-[gulp-qmlweb](https://github.com/qmlweb/gulp-qmlweb) to pre-parse
-files before serving them to the browser.
+QML is the best language that I learn to build desktops applications in a fast way. LQW is an amplification of the project qmlweb(https://github.com/qmlweb/qmlweb)
 
 ## License
 
