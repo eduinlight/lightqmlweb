@@ -1,6 +1,6 @@
 # LightQmlWeb (LQW)
 
-QML is the best language that I learn to build desktops applications in a fast way. LQW is an union of three projects qmlweb(https://github.com/qmlweb/qmlweb), qmlweb-parser(https://github.com/qmlweb/qmlweb-parser) and gulp-qmlweb(https://github.com/qmlweb/gulp-qmlweb). I'm going bring you a fast way to use qmlweb and of course I'm going to implement more modules but not necessary modules from QT but usefulls modules for frontend web development.
+QML is the best language that I learn to build desktops applications in a fast way. LQW is an union of three projects qmlweb(https://github.com/qmlweb/qmlweb), qmlweb-parser(https://github.com/qmlweb/qmlweb-parser) and gulp-qmlweb(https://github.com/qmlweb/gulp-qmlweb). I'm going to bring you a fast way to use qmlweb and of course I'm going to implement more modules but not necessary modules from QT but usefulls modules for frontend web development.
 
 ## Example
 
