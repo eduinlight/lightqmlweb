@@ -1,4 +1,4 @@
-# QMLWEB development
+# LIGHT QML WEB
 
 This is a QML parser in pure JavaScript, based on UglifyJS parser.
 
