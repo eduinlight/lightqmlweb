@@ -1,0 +1,6 @@
+var QmlWeb = {};
+
+window.QmlWeb = QmlWeb;
+
+QmlWeb.qrc = {};
+QmlWeb.qrc['/src/main.qml'] = ["toplevel",[["qmlimport","QtQuick",2,"",true]],["qmlelem","Rectangle",null,[["qmlprop","width",["stat",["num",500]],"500; "],["qmlprop","height",["stat",["num",200]],"200\n\t"],["qmlprop","color",["stat",["string","lightgray"]],"\"lightgray\"\n\t\n\t"],["qmlprop",["dot","Component","onCompleted"],["block",[["stat",["call",["dot",["name","console"],"log"],[["dot",["name","helloText"],"text"]]]]]],"{\n\t\tconsole.log(helloText.text)\n\t}\n\n\t"],["qmlelem","Text",null,[["qmlprop","id",["stat",["name","helloText"]],"helloText\n\t\t"],["qmlprop","text",["stat",["string","imposible pero sierto"]],"\"imposible pero sierto\"\n\t\t"],["qmlprop",["dot","anchors","verticalCenter"],["stat",["dot",["name","parent"],"verticalCenter"]],"parent.verticalCenter\n\t\t"],["qmlprop",["dot","anchors","horizontalCenter"],["stat",["dot",["name","parent"],"horizontalCenter"]],"parent.horizontalCenter\n\t\t"],["qmlprop",["dot","font","pointSize"],["stat",["num",24]],"24; "],["qmlprop",["dot","font","bold"],["stat",["name","true"]],"true\n\t"]]]]]];

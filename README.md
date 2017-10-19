@@ -1,11 +1,4 @@
-# QML parser in JavaScript
-
-[![Join the chat at https://gitter.im/qmlweb/qmlweb](https://badges.gitter.im/qmlweb/qmlweb.svg)](https://gitter.im/qmlweb/qmlweb)
-[![Build Status](https://travis-ci.org/qmlweb/qmlweb-parser.svg?branch=master)](https://travis-ci.org/qmlweb/qmlweb-parser)
-[![codecov](https://codecov.io/gh/qmlweb/qmlweb-parser/branch/master/graph/badge.svg)](https://codecov.io/gh/qmlweb/qmlweb-parser)
-
-[![npm](https://img.shields.io/npm/v/qmlweb-parser.svg)](https://www.npmjs.com/package/qmlweb-parser)
-[![GitHub tag](https://img.shields.io/github/tag/qmlweb/qmlweb-parser.svg)](https://github.com/qmlweb/qmlweb-parser/releases)
+# QMLWEB development
 
 This is a QML parser in pure JavaScript, based on UglifyJS parser.
 
