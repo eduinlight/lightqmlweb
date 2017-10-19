@@ -1,8 +1,12 @@
 # LightQmlWeb (LQW)
 
-QML is the best language that I learn to build desktops applications in a fast way. LQW is an amplification of the project qmlweb(https://github.com/qmlweb/qmlweb)
+QML is the best language that I learn to build desktops applications in a fast way. LQW is an union of three projects qmlweb(https://github.com/qmlweb/qmlweb), qmlweb-parser(https://github.com/qmlweb/qmlweb-parser) and gulp-qmlweb(https://github.com/qmlweb/gulp-qmlweb). I'm going bring you a fast way to use qmlweb and of course I'm going to implement more modules but not necessary modules from QT but usefulls modules for frontend web development.
+
+# Future works
+
+Implementation of routes managment, bootstrap and materialize support, forms validations and many others.
 
 ## License
 
-QmlWeb parser is licensed under the BSD-2-Clause license, see
-[LICENSE](https://github.com/qmlweb/qmlweb-parser/blob/master/LICENSE).
+LightQmlWeb is licensed under the MIT license, see
+[LICENSE](https://github.com/eduinlight/myqmlweb/LICENSE).
