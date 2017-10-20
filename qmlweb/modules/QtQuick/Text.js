@@ -5,12 +5,26 @@ QmlWeb.registerQmlType({
   baseClass: "Item",
   enums: {
     Text: {
-      NoWrap: 0, WordWrap: 1, WrapAnywhere: 2, Wrap: 3,
+      NoWrap: 0,
+      WordWrap: 1,
+      WrapAnywhere: 2,
+      Wrap: 3,
       WrapAtWordBoundaryOrAnywhere: 4,
-      AlignLeft: 1, AlignRight: 2, AlignHCenter: 4, AlignJustify: 8,
-      AlignTop: 32, AlignBottom: 64, AlignVCenter: 128,
-      AutoText: 2, PlainText: 0, StyledText: 4, RichText: 1,
-      Normal: 0, Outline: 1, Raised: 2, Sunken: 3
+      AlignLeft: 1,
+      AlignRight: 2,
+      AlignHCenter: 4,
+      AlignJustify: 8,
+      AlignTop: 32,
+      AlignBottom: 64,
+      AlignVCenter: 128,
+      AutoText: 2,
+      PlainText: 0,
+      StyledText: 4,
+      RichText: 1,
+      Normal: 0,
+      Outline: 1,
+      Raised: 2,
+      Sunken: 3
     }
   },
   properties: {
@@ -29,7 +43,7 @@ QmlWeb.registerQmlType({
     QmlWeb.callSuper(this, meta);
 
     const fc = this.impl = document.createElement("span");
-    fc.style.pointerEvents = "none";
+    fc.style.pointerEvents = "auto";
     fc.style.width = "100%";
     fc.style.height = "100%";
     fc.style.whiteSpace = "pre";
@@ -42,7 +56,7 @@ QmlWeb.registerQmlType({
     this.lineHeightChanged.connect(this, this.$onLineHeightChanged);
     this.wrapModeChanged.connect(this, this.$onWrapModeChanged);
     this.horizontalAlignmentChanged.connect(this,
-                                            this.$onHorizontalAlignmentChanged);
+      this.$onHorizontalAlignmentChanged);
     this.styleChanged.connect(this, this.$onStyleChanged);
     this.styleColorChanged.connect(this, this.$onStyleColorChanged);
 

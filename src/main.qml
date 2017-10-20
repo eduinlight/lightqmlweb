@@ -1,33 +1,20 @@
-import QtQuick 2.0
-import QtQuick.Controls
+import QtQuick 1.0
+import "config/config.js" as config
+import QtQuick.Controls 1.4
+// 
+Item {
+	id: item
 
-Rectangle {
-	width: 500; height: 200
-	color: "lightgray"
-	
 	Component.onCompleted: {
-		console.log(helloText.text)
+		console.log(config.test())
 	}
 
 	Text {
 		id: helloText
-		text: "imposible pero locas"
+		text: "Hello World"
 		anchors.verticalCenter: parent.verticalCenter
 		anchors.horizontalCenter: parent.horizontalCenter
 		font.pointSize: 24; font.bold: true
-	}
-
-	Rectangle{
-		width: 100
-		height: 50
-
-		MouseArea{
-			anchors.fill: parent
-			onClicked: {
-				helloText.text = "EDUIN"
-			}
-		}
-
 	}
 
 }
